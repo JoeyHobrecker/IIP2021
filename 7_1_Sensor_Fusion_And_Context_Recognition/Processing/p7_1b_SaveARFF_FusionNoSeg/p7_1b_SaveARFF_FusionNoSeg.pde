@@ -81,6 +81,7 @@ void setDataType() {
 
 void setup() {
   size(500, 500, P2D);
+  frameRate(60);
   initSerial();
   for (int i = 0; i < 3; i++) { //ezFFT(number of samples, sampleRate)
     fft[i] = new ezFFT(bufferSize, sampleRate);

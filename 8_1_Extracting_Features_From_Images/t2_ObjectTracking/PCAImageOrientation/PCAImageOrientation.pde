@@ -26,6 +26,7 @@ int currY = 0;
 
 void setup() {
   size(640, 480);
+  frameRate(60);
   opencv = new OpenCV(this, imgWidth, imgHeight);
   for (int i = 0; i < img.length; i++) {
     img[i] = loadImage("data/pen_orientation-"+i+".png"); 

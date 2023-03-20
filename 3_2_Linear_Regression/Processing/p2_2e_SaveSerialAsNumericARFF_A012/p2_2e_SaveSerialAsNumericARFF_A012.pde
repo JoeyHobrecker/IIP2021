@@ -20,7 +20,7 @@ int labelIndex = 0;
 
 void setup() {
   size(500, 500);
-
+  frameRate(60);
   //Initialize the serial port
   for (int i = 0; i < Serial.list().length; i++) println("[", i, "]:", Serial.list()[i]);
   String portName = Serial.list()[Serial.list().length-1];//MAC: check the printed list

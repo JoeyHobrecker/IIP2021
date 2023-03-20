@@ -12,7 +12,7 @@ int label = 0;
 
 void setup() {
   size(500, 500);
-
+  frameRate(60);
   //Initiate the dataList and set the header of table
   csvData = new Table();
   csvData.addColumn("x");

@@ -8,6 +8,7 @@ Weka4P wp;                            // create Weka4P variable
 
 void setup() {
   size(500, 500);                     // set a canvas
+  frameRate(60);
   wp = new Weka4P(this);              // instantiate Weka for Processing
   
   wp.loadTrainARFF("testData.arff");  // load a ARFF dataset

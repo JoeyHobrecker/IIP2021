@@ -9,6 +9,7 @@ void setup() {
 }
 void draw() {
   background(255);
+  frameRate(60);
   if (b_saveCSV) {
     saveCSV(csvData, fileName);
   }

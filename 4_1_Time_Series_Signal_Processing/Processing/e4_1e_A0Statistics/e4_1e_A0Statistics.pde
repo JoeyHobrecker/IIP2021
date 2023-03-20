@@ -30,6 +30,7 @@ float[] windowSD = new float[sensorNum]; //standard deviation
 
 void setup() {
   size(500, 500, P2D);
+  frameRate(60);
   initSerial();
 }
 

@@ -18,6 +18,7 @@ int div = 2;
 
 void setup() { 
   size(940, 480);
+  frameRate(60);
   video = new Capture(this, 640/div, 480/div, Capture.list()[0]);
   opencv = new OpenCV(this, 640/div, 480/div);
   opencv.loadCascade(OpenCV.CASCADE_FRONTALFACE);  

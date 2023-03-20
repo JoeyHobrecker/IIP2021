@@ -13,6 +13,7 @@ float[][] sensorHist = new float[sensorNum][streamSize]; //history data to show
 
 void setup() {
   size(500, 500, P2D);
+  frameRate(60);
   initSerial();
 }
 

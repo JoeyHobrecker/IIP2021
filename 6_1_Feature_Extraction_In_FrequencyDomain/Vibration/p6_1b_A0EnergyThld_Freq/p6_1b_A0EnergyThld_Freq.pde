@@ -42,6 +42,7 @@ int sampleCnt = 0; //counter of samples
 
 void setup() {
   size(500, 500, P2D);
+  frameRate(60);
   initSerial();
   for (int i = 0; i < sensorNum; i++) { //ezFFT(number of samples, sampleRate)
     fft[i] = new ezFFT(bufferSize, sampleRate);

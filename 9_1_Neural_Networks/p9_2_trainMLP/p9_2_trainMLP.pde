@@ -9,6 +9,7 @@ Weka4P wp;
 
 void setup() {
   size(500, 500);             //set a canvas
+  frameRate(60);
   wp = new Weka4P(this);
   wp.loadTrainARFF("A012GestTrain.arff"); //load a ARFF dataset
   wp.trainMLP("9", 100); // (hiddenLayers = "9", trainingTime = 100)

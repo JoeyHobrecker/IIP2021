@@ -7,7 +7,8 @@ import Weka4P.*;
 Weka4P wp;
 
 void setup() {
-  size(500, 500);                                      //set a canvas
+  size(500, 500);
+  frameRate(60);//set a canvas
   wp = new Weka4P(this);
   
   wp.loadTrainARFF("mouseTrain.arff");                 //load a ARFF dataset

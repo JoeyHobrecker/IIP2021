@@ -29,6 +29,7 @@ void setDataType() {
 
 void setup() {
   size(640, 480, P3D);
+  frameRate(60);
   background(255);
   leap = new LeapMotion(this);
   imageMode(CENTER);

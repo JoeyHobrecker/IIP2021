@@ -14,6 +14,7 @@ boolean dataUpdated = false;
 
 void setup() {
   size(500, 500);             //set a canvas
+  frameRate(60);
   wp = new Weka4P(this);
   
   //Initialize the serial port

@@ -13,7 +13,7 @@ boolean showModelOnly = false;
 void setup() {
   size(500, 500);                             //set a canvas
   wp = new Weka4P(this);
-
+  frameRate(60);
 
   wp.loadTrainARFF("mouseTrain.arff");        //load a ARFF dataset
   wp.CSearchLSVC(CArray);                     //train a model with every C in CArray

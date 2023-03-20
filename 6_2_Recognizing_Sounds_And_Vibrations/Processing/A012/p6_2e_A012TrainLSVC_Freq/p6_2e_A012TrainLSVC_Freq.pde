@@ -72,6 +72,7 @@ void setDataType() {
 
 void setup() {
   size(500, 500, P2D);
+  frameRate(60);
   wp = new Weka4P(this);
   initSerial();
   for (int i = 0; i < sensorNum; i++) { //ezFFT(number of samples, sampleRate)

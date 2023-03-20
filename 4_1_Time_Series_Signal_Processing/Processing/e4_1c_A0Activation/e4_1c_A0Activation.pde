@@ -19,6 +19,7 @@ int activationThld = 20; //The diff threshold of activiation
 
 void setup() {
   size(500, 500, P2D);
+  frameRate(60);
   initSerial();
 }
 

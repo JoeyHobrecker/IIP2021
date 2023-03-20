@@ -5,6 +5,7 @@
 
 void setup() {
   size(800, 600);
+  frameRate(60);
   background(0);
   resetData();
 }

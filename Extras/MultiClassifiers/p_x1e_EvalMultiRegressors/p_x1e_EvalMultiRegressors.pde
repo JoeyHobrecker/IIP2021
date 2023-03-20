@@ -16,6 +16,7 @@ Classifier[] classifiers = new Classifier[3];
 
 void setup() {
   size(500, 500);             //set a canvas
+  frameRate(60);
   wp = new Weka4P(this);
   instances[0] = wp.loadTrainARFFToInstances("mouseTrainNum.arff");
   attributes[0] = wp.loadAttributesFromInstances(instances[0]);

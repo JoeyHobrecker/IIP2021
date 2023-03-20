@@ -9,6 +9,7 @@ Weka4P wp;
 
 void setup() {
   size(500, 500, P2D);             //set a canvas
+  frameRate(60);
   wp = new Weka4P(this);
   wp.loadTrainARFF("A012GestTrain.arff"); //load a ARFF dataset
   wp.loadTestARFF("A012GestTest.arff");//load a ARFF dataset

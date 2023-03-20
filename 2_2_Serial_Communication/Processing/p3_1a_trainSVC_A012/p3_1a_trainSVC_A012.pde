@@ -14,7 +14,8 @@ int[] rawData = new int[sensorNum];
 boolean dataUpdated = false;
 
 void setup() {
-  size(500, 500);                                               //set a canvas
+  size(500, 500);
+  frameRate(60);//set a canvas
   wp = new Weka4P(this);
                                                   
   for (int i = 0; i < Serial.list().length; i++)                //Initialize the serial port

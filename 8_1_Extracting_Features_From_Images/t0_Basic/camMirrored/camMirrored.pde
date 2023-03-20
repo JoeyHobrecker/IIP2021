@@ -20,7 +20,8 @@ int div = 2;
 PImage src;
 
 void setup() {
-  size(640, 480);  
+  size(640, 480); 
+  frameRate(60);
   video = new Capture(this, 640/div, 480/div, Capture.list()[0]);
   opencv = new OpenCV(this, 640/div, 480/div);
   opencv.useColor();

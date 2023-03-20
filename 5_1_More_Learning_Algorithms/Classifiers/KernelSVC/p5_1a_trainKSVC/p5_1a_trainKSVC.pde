@@ -8,6 +8,7 @@ Weka4P wp;
 
 void setup() {
   size(500, 500);             //set a canvas
+  frameRate(60);
   wp = new Weka4P(this);
   wp.loadTrainARFF("mouseTrain.arff"); //load a ARFF dataset
   wp.trainRBFSVC(64, 64);             //train a SV classifier (gamma=64, C=64)

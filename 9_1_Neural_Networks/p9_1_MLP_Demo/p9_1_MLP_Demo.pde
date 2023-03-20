@@ -30,6 +30,7 @@ float lastFrameCount = 0;
 void setup() {
 
   size(1000, 400);
+  frameRate(60);
   setupSigmoid();
   loadData();
 

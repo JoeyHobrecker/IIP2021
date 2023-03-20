@@ -14,6 +14,7 @@ float[][] diffArray = new float[sensorNum][streamSize]; //diff calculation: subs
 
 void setup() {
   size(500, 500, P2D);
+  frameRate(60);
   initSerial();
 }
 

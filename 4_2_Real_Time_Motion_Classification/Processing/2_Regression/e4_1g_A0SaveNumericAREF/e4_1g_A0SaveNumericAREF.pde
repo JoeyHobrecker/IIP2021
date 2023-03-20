@@ -37,6 +37,7 @@ int labelIndex = 0;
 
 void setup() {
   size(500, 500, P2D);
+  frameRate(60);
   initSerial();
   initCSV();
 }

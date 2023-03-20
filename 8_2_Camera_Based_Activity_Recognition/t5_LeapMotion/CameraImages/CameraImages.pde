@@ -4,6 +4,7 @@ LeapMotion leap;
 
 void setup(){
   size(1280, 480);
+  frameRate(60);
   background(255);
   leap = new LeapMotion(this);
 }

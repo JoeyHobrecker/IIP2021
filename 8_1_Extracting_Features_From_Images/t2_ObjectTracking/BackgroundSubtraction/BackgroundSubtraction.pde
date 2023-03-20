@@ -15,6 +15,7 @@ boolean b_save = false;
 
 void setup() {
   size(640, 480);
+  frameRate(60);
   video = new Capture(this, 640/div, 480/div, Capture.list()[0]);
   opencv = new OpenCV(this, 640/div, 480/div);
   dst = new PImage(640/div, 480/div);
