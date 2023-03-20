@@ -23,6 +23,7 @@ float[] modeArray = new float[streamSize]; //classification to show
 void setup()
 {
   size(700, 700, P2D);
+  frameRate(60);
   // setup audio input
   minim = new Minim(this);
   in = minim.getLineIn(Minim.MONO, bufferSize, sampleRate);
